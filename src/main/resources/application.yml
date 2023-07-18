@@ -1,0 +1,13 @@
+redis:
+  om:
+    spring:
+      repository:
+        query:
+          limit: 10000
+      djl:
+        enabled: true
+
+spring:
+  data:
+    redis:
+      host: ${REDIS_HOST:localhost}
